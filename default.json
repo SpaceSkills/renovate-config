@@ -15,7 +15,7 @@
   ],
   "timezone": "Europe/London",
   "platformAutomerge": true,
-  "automergeSchedule": ["after 10am every day", "before 10pm every day"],
+  "automergeSchedule": ["after 10am", "before 10pm"],
   "minimumReleaseAge": "3 days",
   "packageRules": [
     {
