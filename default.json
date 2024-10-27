@@ -23,6 +23,7 @@
       "minimumReleaseAge": "5 days"
     }
   ],
+  "forkProcessing": "enabled",
   "labels": ["dependencies"],
   "npmrc": "@spaceskills:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${{secrets.PACKAGES_ACCESS_TOKEN}}"
 }
