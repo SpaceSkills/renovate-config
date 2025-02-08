@@ -25,5 +25,5 @@
   ],
   "forkProcessing": "enabled",
   "labels": ["dependencies"],
-  "npmrc": "@spaceskills:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${{process.env.MEND_PACKAGES_ACCESS_TOKEN}}"
+  "npmrc": "@spaceskills:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${{secrets.MEND_PACKAGES_ACCESS_TOKEN}}"
 }
