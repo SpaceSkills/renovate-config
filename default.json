@@ -25,5 +25,12 @@
   ],
   "forkProcessing": "enabled",
   "labels": ["dependencies"],
-  "npmrc": "@spaceskills:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${{secrets.MEND_PACKAGES_ACCESS_TOKEN}}"
+  "hostRules": [
+    {
+      "matchHost": "https://npm.pkg.github.com/",
+      "hostType": "npm",
+      "token": "{{ secrets.MEND_PACKAGES_ACCESS_TOKEN }}"
+    }
+  ],
+  "npmrc": "@spaceskills:registry=https://npm.pkg.github.com/"
 }
